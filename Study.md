@@ -26,19 +26,25 @@ Browser Compatibility References:
 1. What is Ajax? What advantages and disadvantages does it brings?
 
    ```
-   Please write your answer here.
+   Ajax is based on the acronym for asynchronous JavaScript and XML and is the name for a technique. It allows for callbacks by XMLHttpRequest Objects in the client side JavaScript to exchange data requests to a server. 
+   The benefits include the lack of need for refreshing the entire page making it fast to use and user friendly to set up. 
+   The callbacks help reduce processing on the server and the asynchronous calls allow for some working in another part of the browser to avoid waiting for all data to arrive before the user makes another act.
+
+   The cons include the difficulty for SEO tracking, it can be harder to debug and it relies that JavaScript is compatible to be able to work.
    ```
 
 2. Explain the differences between XMLHttpRequest, Fetch and Axios.
 
    ```
-   Please write your answer here.
+   XMLHttpRequest as the oldest technique which requires callbacks to understand if the request has errored and if the data has been returned. 
+   Fetch is a newer API way which is less code, it does not use callbacks but still allows for async functioning. It ensures consistency in the use of generic Headers, Requests and Response interfaces. Fetch does not support timeouts and is cookieless by default which means you need to implement ways to counter this. 
+   Axios automatically stringifies the data unlike fetch. Both Axios and XMLHttpRequest have easier ways to set up a progress indicator when compared to fetch which doesnt have one and instead needs a workaround. 
    ```
 
 3. Which of the three has the poorest browser support - XMLHttpRequest (XHR), Fetch and Axios?
 
    ```
-   Please write your answer here.
+  As a disadvantage, Fetch being newer than XMLHttpRequest means patchs may result in more instability in browser compatibility in future broswer updates. The Fetch API is less stable for Internet Explorer and versions pre-2017 of Chrome, Firefox and Safari. Axios has better backward compatibility than fetch().
    ```
 
 ### Response Guidelines
