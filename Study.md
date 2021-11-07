@@ -26,7 +26,7 @@ Browser Compatibility References:
 1. What is Ajax? What advantages and disadvantages does it brings?
 
    ```
-Ajax is a tool that allows for communication between servers.
+Ajax is a tool that allows for communication between servers. It allows you to have a small section of a page refresh without the user having to wait for page to load.
 
 The advantage of Ajaz is that it allows for a faster web browsing experience for users. A major disadvantage is that it is not good for SEO
    ```
