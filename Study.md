@@ -26,19 +26,21 @@ Browser Compatibility References:
 1. What is Ajax? What advantages and disadvantages does it brings?
 
    ```
-   Please write your answer here.
+Ajax is a tool that allows for communication between servers.
+
+The advantage of Ajaz is that it allows for a faster web browsing experience for users. A major disadvantage is that it is not good for SEO
    ```
 
 2. Explain the differences between XMLHttpRequest, Fetch and Axios.
 
    ```
-   Please write your answer here.
-   ```
+Request onject for Axios a requet object wheras Fetch doesn't. Axios is a library used to make xhr requests 
+```
 
 3. Which of the three has the poorest browser support - XMLHttpRequest (XHR), Fetch and Axios?
 
    ```
-   Please write your answer here.
+Fetch
    ```
 
 ### Response Guidelines
