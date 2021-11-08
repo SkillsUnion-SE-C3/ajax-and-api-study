@@ -26,19 +26,30 @@ Browser Compatibility References:
 1. What is Ajax? What advantages and disadvantages does it brings?
 
    ```
-   Please write your answer here.
+   Ajax is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh.
+pros: 
+request are asynchronous, the user does not have to wait for the request processing to complete.
+useful for real-time applications.
+improves speed and performance when fetching data from the database and storing data into a database
+
+cons: 
+relies on JavaScript. If JavaScript is disabled, the AJAX application won't work.
+Harder to debug
+Very bad for SEO; Search engines like Google, Yahoo, Bing etc. cannot easily index the AJAX pages
    ```
 
 2. Explain the differences between XMLHttpRequest, Fetch and Axios.
 
    ```
-   Please write your answer here.
+   XMLHttpRequests - is the oldest and is more complicated to code for. It also requires callbacks for responses
+Fetch  - is the newest and easier to code. It does not support cookies or timeouts which both require additional coding for
+Axios - is an easy to use and has a large browser support without issues. 
    ```
 
 3. Which of the three has the poorest browser support - XMLHttpRequest (XHR), Fetch and Axios?
 
    ```
-   Please write your answer here.
+   Fetch
    ```
 
 ### Response Guidelines
